@@ -1,0 +1,5 @@
+TC_ID	Test Scenario	Description	Preconditions	Test Steps	Expected Result	Actual Result	Status
+TC_001	Verify successful user registration	Validate new user registration	Registration page accessible	Open app -> Register -> Enter details -> Submit	Account created successfully	Account created successfully and welcome message displayed	Pass
+TC_002	Verify login using created account	Validate login with created user	User account exists	Login with generated credentials	User logs in successfully	User logged in and redirected to account page	Pass
+TC_003	Verify account overview page display after login	Validate account overview page	User logged in	Verify account services section	Account overview displayed	Account services and overview page displayed	Pass
+TC_004	Verify account amount displayed post login	Validate account amount	User on account page	Capture displayed amount	Amount displayed and logged	Displayed Amount: $515.50 printed in logs	Pass
