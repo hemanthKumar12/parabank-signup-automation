@@ -7,7 +7,7 @@ constructor(private page: Page){}
 async login(username:string){
 
 await this.page.fill(
-'input[name="username"]',
+'input[name="usernames"]',
 username
 );
 
